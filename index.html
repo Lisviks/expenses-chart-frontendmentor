@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 3rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer type="module"></script>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="header">
+          <p>My balance <span class="balance">$921.48</span></p>
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <div class="content">
+          <h1>Spending - Last 7 days</h1>
+          <div class="chart">
+            <div class="mon bar-wrapper">
+              <div class="bar">
+                <div></div>
+                <p class="amount"></p>
+              </div>
+              <p>mon</p>
+            </div>
+            <div class="tue bar-wrapper">
+              <div class="bar">
+                <div></div>
+                <p class="amount"></p>
+              </div>
+              <p>tue</p>
+            </div>
+            <div class="wed bar-wrapper">
+              <div class="bar">
+                <div></div>
+                <p class="amount"></p>
+              </div>
+              <p>wed</p>
+            </div>
+            <div class="thu bar-wrapper">
+              <div class="bar">
+                <div></div>
+                <p class="amount"></p>
+              </div>
+              <p>thu</p>
+            </div>
+            <div class="fri bar-wrapper">
+              <div class="bar">
+                <div></div>
+                <p class="amount"></p>
+              </div>
+              <p>fri</p>
+            </div>
+            <div class="sat bar-wrapper">
+              <div class="bar">
+                <div></div>
+                <p class="amount"></p>
+              </div>
+              <p>sat</p>
+            </div>
+            <div class="sun bar-wrapper">
+              <div class="bar">
+                <div></div>
+                <p class="amount"></p>
+              </div>
+              <p>sun</p>
+            </div>
+          </div>
+          <div class="footer">
+            <p class="total-amount">Total this month <span>$478.33</span></p>
+            <p class="change-from-last-month">
+              <span>+2.4%</span><br />
+              from last month
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month -->
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://www.frontendmentor.io/profile/Lisviks">Deividas Rimkus</a>.
+    </div>
+  </body>
+</html>
