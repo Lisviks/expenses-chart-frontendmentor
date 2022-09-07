@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL]()
+- Solution URL: [URL](https://www.frontendmentor.io/solutions/expenses-chart-component-qIkN0arv87)
 - Live Site URL: [URL](https://lisviks.github.io/expenses-chart-frontendmentor/)
 
 ## My process
